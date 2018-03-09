@@ -2,6 +2,8 @@
 
 namespace App;
 
+use Hash;
+use Request;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -25,4 +27,15 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    //xiaohu
+    public function register()
+    {
+
+    }
+
+    public function login()
+    {
+
+    }
 }
