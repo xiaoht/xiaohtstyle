@@ -16,3 +16,9 @@ Route::get('/', function () {
 });
 
 include_once('xiaohu.php');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/email/verify/{token}' , ['as' => 'email.verify' , 'uses' => '\App\Http\Controllers\EmailController@verify']);
