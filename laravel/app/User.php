@@ -4,7 +4,8 @@ namespace App;
 
 use Hash;
 use Request;
-use App\Common\Models\Model;
+use Mail;
+use Naux\Mail\SendCloudTemplate;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -29,6 +30,18 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    public function sendPasswordResetNotification($token)
+    {
+        $data = [
+            'url' => url('password/reset' , $token),
+        ];
+        $template = new SendCloudTemplate('xiaohtstyle_reset_password', $data);
+        Mail::raw($template, function ($message) {
+            $message->from('xiaohaitao_1995@163.com', '海涛个人style');
+            $message->to($this->email);
+        });
+    }
+
     //xiaohu
     public function returnMsg($code = 200 , $data = [] , $msg = 'success')
     {
@@ -38,42 +51,5 @@ class User extends Authenticatable
             'msg'  => $msg
         );
         return $res;
-    }
-
-    public function register()
-    {
-        $has_username_and_password = $this->has_username_and_password();
-        if(!$has_username_and_password){
-            return $this->returnMsg(403 , [] , '用户名和密码皆不可为空');
-        }
-        $username = $has_username_and_password[0];
-        $password = $has_username_and_password[1];
-        $user_exists = $this
-            ->where('username',$username)
-            ->exists();
-        if($user_exists){
-            return $this->returnMsg(403 , [] , '用户名已存在');
-        }
-
-        //$hashed_password = Hash::make($password);
-        $hashed_password = bcrypt($password);
-        $user = $this;
-        $user->password = $hashed_password;
-        $user->username = $username;
-        if($user->save()) {
-            return $this->returnMsg(200 , $user->id);
-        }else{
-            return $this->returnMsg(403 , [] , '服务器繁忙');
-        }
-    }
-
-    public function has_username_and_password(){
-        $username = Request::get('username');
-        $password = Request::get('password');
-        if($username && $password){
-            return [$username,$password];
-        }else{
-            return false;
-        }
     }
 }

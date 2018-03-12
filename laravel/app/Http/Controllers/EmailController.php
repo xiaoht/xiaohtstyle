@@ -9,6 +9,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use Auth;
 
 class EmailController extends Controller
 {

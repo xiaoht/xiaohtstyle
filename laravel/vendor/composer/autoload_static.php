@@ -70,6 +70,10 @@ class ComposerStaticInit5fa08b053df8b6c8bcffa6ee29add125
             'Psr\\Http\\Message\\' => 17,
             'PhpParser\\' => 10,
         ),
+        'O' => 
+        array (
+            'Overtrue\\LaravelUEditor\\' => 24,
+        ),
         'N' => 
         array (
             'Naux\\Mail\\' => 10,
@@ -222,6 +226,10 @@ class ComposerStaticInit5fa08b053df8b6c8bcffa6ee29add125
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'Overtrue\\LaravelUEditor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/overtrue/laravel-ueditor/src',
+        ),
         'Naux\\Mail\\' => 
         array (
             0 => __DIR__ . '/..' . '/naux/sendcloud/src',
@@ -340,6 +348,8 @@ class ComposerStaticInit5fa08b053df8b6c8bcffa6ee29add125
 
     public static $classMap = array (
         'App\\Common\\Models\\Model' => __DIR__ . '/../..' . '/app/Common/Models/Model.php',
+        'App\\Common\\Models\\Question' => __DIR__ . '/../..' . '/app/Common/Models/Question.php',
+        'App\\Common\\Services\\Email' => __DIR__ . '/../..' . '/app/Common/Services/Email.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -347,6 +357,7 @@ class ComposerStaticInit5fa08b053df8b6c8bcffa6ee29add125
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\EmailController' => __DIR__ . '/../..' . '/app/Http/Controllers/EmailController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -400,6 +411,7 @@ class ComposerStaticInit5fa08b053df8b6c8bcffa6ee29add125
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreateQuestionsTable' => __DIR__ . '/../..' . '/database/migrations/2018_03_12_225100_create_questions_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
@@ -1948,6 +1960,12 @@ class ComposerStaticInit5fa08b053df8b6c8bcffa6ee29add125
         'Naux\\Mail\\SendCloudServiceProvider' => __DIR__ . '/..' . '/naux/sendcloud/src/SendCloudServiceProvider.php',
         'Naux\\Mail\\SendCloudTemplate' => __DIR__ . '/..' . '/naux/sendcloud/src/SendCloudTemplate.php',
         'Naux\\Mail\\SendCloudTransport' => __DIR__ . '/..' . '/naux/sendcloud/src/SendCloudTransport.php',
+        'Overtrue\\LaravelUEditor\\Events\\Uploaded' => __DIR__ . '/..' . '/overtrue/laravel-ueditor/src/Events/Uploaded.php',
+        'Overtrue\\LaravelUEditor\\Events\\Uploading' => __DIR__ . '/..' . '/overtrue/laravel-ueditor/src/Events/Uploading.php',
+        'Overtrue\\LaravelUEditor\\StorageManager' => __DIR__ . '/..' . '/overtrue/laravel-ueditor/src/StorageManager.php',
+        'Overtrue\\LaravelUEditor\\UEditorController' => __DIR__ . '/..' . '/overtrue/laravel-ueditor/src/UEditorController.php',
+        'Overtrue\\LaravelUEditor\\UEditorServiceProvider' => __DIR__ . '/..' . '/overtrue/laravel-ueditor/src/UEditorServiceProvider.php',
+        'Overtrue\\LaravelUEditor\\UrlResolverTrait' => __DIR__ . '/..' . '/overtrue/laravel-ueditor/src/UrlResolverTrait.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/AssertionFailedError.php',
         'PHPUnit\\Framework\\BaseTestListener' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/BaseTestListener.php',
