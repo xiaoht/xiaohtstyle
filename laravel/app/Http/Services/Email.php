@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Common\Services;
+namespace App\Http\Services;
 
 use Mail;
 use Naux\Mail\SendCloudTemplate;

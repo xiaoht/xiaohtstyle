@@ -2,7 +2,8 @@
 
 namespace App\Zhihu\Controllers;
 
-use App\Common\Models\Question;
+use App\Http\Models\Question;
+use App\Http\Requests\QuestionRequest;
 use Auth;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -35,7 +36,7 @@ class QuestionsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(QuestionRequest $request)
     {
         $data = [
             'title'   => $request->get('title'),
