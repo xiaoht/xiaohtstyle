@@ -72,7 +72,6 @@
         </nav>
         @include('flash::message')
         @yield('content')
-        @include('layouts.error')
     </div>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>

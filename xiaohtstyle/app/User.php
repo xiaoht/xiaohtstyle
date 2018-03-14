@@ -35,7 +35,7 @@ class User extends Authenticatable
         ];
         $template = new SendCloudTemplate('xiaohtstyle_reset_password', $data);
         Mail::raw($template, function ($message) {
-            $message->from('xiaohaitao_1995@163.com', '›¿??’¨style');
+            $message->from('xiaohaitao_1995@163.com', 'haitaostyle');
             $message->to($this->email);
         });
     }

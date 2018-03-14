@@ -51,7 +51,7 @@ class LoginController extends Controller
         }
 
         if ($this->attemptLogin($request)) {
-            flash('»¶Ó­»ØÀ´')->overlay();
+            flash('æ¬¢è¿Žå›žæ¥')->overlay();
             return $this->sendLoginResponse($request);
         }
 

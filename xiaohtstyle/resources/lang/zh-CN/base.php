@@ -18,4 +18,7 @@ return [
     'confirm password'          => '确认密码',
     'reset password'            => '重置密码',
     'send password reset link'  => '发送重置密码链接',
+    'release question'          => '发布问题',
+    'title'                     => '标题',
+    'content'                   => '内容',
 ];
