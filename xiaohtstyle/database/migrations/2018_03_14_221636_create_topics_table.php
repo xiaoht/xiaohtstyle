@@ -15,6 +15,10 @@ class CreateTopicsTable extends Migration
     {
         Schema::create('topics', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+            $table->text('bio')->nullable();
+            $table->integer('followers_count')->default(0);
+            $table->integer('questions_count')->default(0);
             $table->timestamps();
         });
     }

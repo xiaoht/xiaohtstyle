@@ -21,4 +21,5 @@ return [
     'release question'          => '发布问题',
     'title'                     => '标题',
     'content'                   => '内容',
+    'select topics'             => '选择话题',
 ];
