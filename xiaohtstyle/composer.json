@@ -6,7 +6,12 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*"
+        "barryvdh/laravel-ide-helper": "^2.4",
+        "laracasts/flash": "^3.0",
+        "laravel/framework": "5.3.*",
+        "naux/sendcloud": "^1.1",
+        "overtrue/laravel-lang": "~3.0",
+        "overtrue/laravel-ueditor": "~1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

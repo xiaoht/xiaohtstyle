@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+Route::get('/email/verify/{token}' , ['as' => 'email.verify' , 'uses' => '\App\Http\Controllers\EmailController@verify']);
+
+include_once('zhihu.php');
