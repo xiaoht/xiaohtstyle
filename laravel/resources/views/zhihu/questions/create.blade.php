@@ -20,6 +20,8 @@
                                     </span>
                                 @endif
                             </div>
+                            <div class="form-group">
+                            </div>
                             <!-- 编辑器容器 -->
                             <div class="form-group{{ $errors->has('content') ? ' has-error' : '' }}">
                                 <script id="container" name="content" type="text/plain">
