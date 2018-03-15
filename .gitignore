@@ -1,11 +1,8 @@
 .idea/
 .idea
 _ide_helper.php
-laravel/.env
 _ide_helper_models.php
 .phpstorm.meta.php
 xiaohtstyle/storage/framework/
-laravel/storage/framework/
 xiaohtstyle/public/storage
-laravel/public/storage
 xiaohtstyle/public/build/
