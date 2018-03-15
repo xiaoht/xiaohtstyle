@@ -3,6 +3,7 @@
 namespace App\Zhihu\Controllers;
 
 use App\Http\Models\Question;
+use App\Http\Models\Topic;
 use App\Http\Requests\QuestionRequest;
 use Auth;
 use Illuminate\Http\Request;
@@ -44,12 +45,15 @@ class QuestionsController extends Controller
      */
     public function store(QuestionRequest $request)
     {
+        $topics = $this->normalizeTopic($request->get('topics'));
         $data = [
             'title'   => $request->get('title'),
             'content' => $request->get('content'),
             'user_id' => Auth::id(),
         ];
         $question = Question::create($data);
+
+        $question->topics()->attach($topics);
         return redirect()->route('zhihu.question.show' , [$question->id]);
     }
 
@@ -61,7 +65,7 @@ class QuestionsController extends Controller
      */
     public function show($id)
     {
-        $question = Question::find($id);
+        $question = Question::where('id',$id)->with('topics')->first();
 
         return view('zhihu.questions.show' , compact('question'));
     }
@@ -98,5 +102,18 @@ class QuestionsController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function normalizeTopic(array $topics)
+    {
+        return collect($topics)->map(function ($topic){
+            if (is_numeric($topic)){
+                Topic::find($topic)->increment('questions_count');
+                return (int) $topic;
+            }
+
+            $newTopic = Topic::create(['name' => $topic , 'questions_count' => 1]);
+            return $newTopic->id;
+        })->toArray();
     }
 }
