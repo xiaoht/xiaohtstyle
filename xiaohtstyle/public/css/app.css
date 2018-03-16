@@ -8281,4 +8281,8 @@ button.close {
   border-color: #5897fb;
 }
 
+.panel-body img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=app.css.map */
