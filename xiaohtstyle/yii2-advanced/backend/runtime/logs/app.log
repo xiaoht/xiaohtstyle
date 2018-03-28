@@ -1,0 +1,2514 @@
+2018-03-26 05:42:03 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+2018-03-26 05:42:03 [192.168.10.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '8027'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522042923.7057
+    'REQUEST_TIME' => 1522042923
+]
+2018-03-26 05:42:04 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+    in /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/views/layouts/main.php:77
+    in /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/controllers/SiteController.php:84
+2018-03-26 05:42:04 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+2018-03-26 05:42:03 [192.168.10.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '30odin8219i0n5g5grukgqv110'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=30odin8219i0n5g5grukgqv110'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '8027'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522042923.8385
+    'REQUEST_TIME' => 1522042923
+]
+2018-03-26 08:00:04 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:00:04 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '5477'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051204.1871
+    'REQUEST_TIME' => 1522051204
+]
+2018-03-26 08:01:17 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:01:17 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '52j7q6ifp2g8gjpj0qqfbtoh92'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=52j7q6ifp2g8gjpj0qqfbtoh92; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '5870'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051277.2955
+    'REQUEST_TIME' => 1522051277
+]
+2018-03-26 08:01:22 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:01:22 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '52j7q6ifp2g8gjpj0qqfbtoh92'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=52j7q6ifp2g8gjpj0qqfbtoh92; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '5870'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051282.5554
+    'REQUEST_TIME' => 1522051282
+]
+2018-03-26 08:03:53 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:03:53 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '6803'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051433.0421
+    'REQUEST_TIME' => 1522051433
+]
+2018-03-26 08:03:54 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:03:54 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '6805'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051434.0072
+    'REQUEST_TIME' => 1522051434
+]
+2018-03-26 08:03:54 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:03:54 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '6805'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051434.5989
+    'REQUEST_TIME' => 1522051434
+]
+2018-03-26 08:03:55 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:03:55 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '6805'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051435.2792
+    'REQUEST_TIME' => 1522051435
+]
+2018-03-26 08:04:29 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:04:29 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '6806'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051469.8564
+    'REQUEST_TIME' => 1522051469
+]
+2018-03-26 08:06:12 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:06:11 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '52j7q6ifp2g8gjpj0qqfbtoh92'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=52j7q6ifp2g8gjpj0qqfbtoh92; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '7567'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522051571.8636
+    'REQUEST_TIME' => 1522051571
+]
+2018-03-26 08:27:41 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:27:41 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '52j7q6ifp2g8gjpj0qqfbtoh92'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=52j7q6ifp2g8gjpj0qqfbtoh92; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '14781'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522052861.2876
+    'REQUEST_TIME' => 1522052861
+]
+2018-03-26 08:27:43 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:27:43 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '52j7q6ifp2g8gjpj0qqfbtoh92'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=52j7q6ifp2g8gjpj0qqfbtoh92; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '14781'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522052863.2769
+    'REQUEST_TIME' => 1522052863
+]
+2018-03-26 08:28:10 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:28:09 [192.168.10.1][1][52j7q6ifp2g8gjpj0qqfbtoh92][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '52j7q6ifp2g8gjpj0qqfbtoh92'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=52j7q6ifp2g8gjpj0qqfbtoh92; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '14781'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522052889.8981
+    'REQUEST_TIME' => 1522052889
+]
+2018-03-26 08:32:47 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:32:47 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '2543'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522053167.3642
+    'REQUEST_TIME' => 1522053167
+]
+2018-03-26 08:36:12 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:36:12 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '3723'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522053372.5374
+    'REQUEST_TIME' => 1522053372
+]
+2018-03-26 08:49:40 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:49:40 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '8841'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522054179.9967
+    'REQUEST_TIME' => 1522054179
+]
+2018-03-26 08:58:55 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/admin/assignment". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/admin/ass...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:58:55 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/route'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '11887'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/admin/assignment'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522054735.5709
+    'REQUEST_TIME' => 1522054735
+]
+2018-03-26 08:58:59 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/admin/admin/menu". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/admin/adm...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:58:59 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/admin/assignment'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '11887'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/admin/admin/menu'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522054739.243
+    'REQUEST_TIME' => 1522054739
+]
+2018-03-26 08:59:12 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/admin/admin/menu". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/admin/adm...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:59:11 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/admin/assignment'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '11887'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/admin/admin/menu'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522054751.9787
+    'REQUEST_TIME' => 1522054751
+]
+2018-03-26 08:59:18 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/admin/admin/menu". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/admin/adm...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:59:18 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/admin/assignment'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '11887'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/admin/admin/menu'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522054758.0658
+    'REQUEST_TIME' => 1522054758
+]
+2018-03-26 08:59:19 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/admin/admin/menu". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/admin/adm...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:59:19 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/admin/assignment'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '11887'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/admin/admin/menu'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522054759.0648
+    'REQUEST_TIME' => 1522054759
+]
+2018-03-26 08:59:19 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/admin/admin/menu". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/admin/adm...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:59:19 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/admin/assignment'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '11887'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/admin/admin/menu'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522054759.698
+    'REQUEST_TIME' => 1522054759
+]
+2018-03-26 08:59:32 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/admin/role". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/admin/rol...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 08:59:32 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/route'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '11887'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/admin/role'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522054772.0345
+    'REQUEST_TIME' => 1522054772
+]
+2018-03-26 09:09:11 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:09:11 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '1529'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522055351.8125
+    'REQUEST_TIME' => 1522055351
+]
+2018-03-26 09:11:20 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:11:19 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '1923'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522055479.9585
+    'REQUEST_TIME' => 1522055479
+]
+2018-03-26 09:14:17 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:14:17 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '3159'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522055657.3603
+    'REQUEST_TIME' => 1522055657
+]
+2018-03-26 09:15:07 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:15:07 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '3159'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522055707.1672
+    'REQUEST_TIME' => 1522055707
+]
+2018-03-26 09:16:17 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:16:17 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '3159'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522055777.6846
+    'REQUEST_TIME' => 1522055777
+]
+2018-03-26 09:16:48 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:16:48 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '4100'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522055808.8048
+    'REQUEST_TIME' => 1522055808
+]
+2018-03-26 09:16:56 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:16:56 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '4100'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522055816.1038
+    'REQUEST_TIME' => 1522055816
+]
+2018-03-26 09:22:13 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:22:13 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '5907'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522056133.5746
+    'REQUEST_TIME' => 1522056133
+]
+2018-03-26 09:22:36 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/menu/admin/route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/menu/admi...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:22:36 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/menu/update?id=1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '5907'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/menu/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522056156.6887
+    'REQUEST_TIME' => 1522056156
+]
+2018-03-26 09:22:50 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/menu/admin/route". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/menu/admi...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:22:50 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/menu/update?id=1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '5907'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/menu/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522056170.1143
+    'REQUEST_TIME' => 1522056170
+]
+2018-03-26 09:23:12 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:23:12 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '5907'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522056192.3942
+    'REQUEST_TIME' => 1522056192
+]
+2018-03-26 09:23:18 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/986b35b1...', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:23:18 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/assets/986b35b1/jquery-ui.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '6343'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/986b35b1/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522056198.0453
+    'REQUEST_TIME' => 1522056198
+]
+2018-03-26 09:24:01 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][Error] Error: Class 'MenuHelper' not found in /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/views/layouts/left.php:31
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/vagrant/C...', Array)
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/vagrant/C...', Array, NULL)
+#3 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/views/layouts/main.php(50): yii\base\View->render('left.php', Array)
+#4 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(336): require('/home/vagrant/C...')
+#5 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/vagrant/C...', Array)
+#6 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/home/vagrant/C...', Array, Object(mdm\admin\controllers\MenuController))
+#7 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="men...')
+#8 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/mdmsoft/yii2-admin/controllers/MenuController.php(60): yii\base\Controller->render('view', Array)
+#9 [internal function]: mdm\admin\controllers\MenuController->actionView('1')
+#10 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('view', Array)
+#13 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/menu/view', Array)
+#14 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#16 {main}
+2018-03-26 09:24:01 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/admin/menu/update?id=1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '6343'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin/menu/view?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522056241.0821
+    'REQUEST_TIME' => 1522056241
+]
+2018-03-26 09:24:56 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "route/index". in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('route/index', Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-03-26 09:24:56 [192.168.10.1][1][80sillht888hjg5iel7jptirdp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '80sillht888hjg5iel7jptirdp'
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'advanced-backend=80sillht888hjg5iel7jptirdp; _identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=42abee842db8a8638f102e7180d331ed138ee7bc8ba985ef8a9460ab3864334ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22G2WCrNPgnuG2W9GwC7-vDvgqpyRuR8b8%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '6343'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/route/index'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522056296.3941
+    'REQUEST_TIME' => 1522056296
+]
+2018-03-26 10:44:14 [192.168.10.1][1][nm67ijherttis6idbg99vqqtih][error][yii\base\ErrorException:2] yii\base\ErrorException: call_user_func() expects parameter 1 to be a valid callback, array must have exactly two members in /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/mdmsoft/yii2-admin/components/MenuHelper.php:202
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'call_user_func(...', '/home/vagrant/C...', 202, Array)
+#1 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/mdmsoft/yii2-admin/components/MenuHelper.php(202): call_user_func(Array, Array)
+#2 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/mdmsoft/yii2-admin/components/MenuHelper.php(200): mdm\admin\components\MenuHelper::normalizeMenu('<span class="st...', '<span class="st...', Array, '1')
+#3 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/mdmsoft/yii2-admin/components/MenuHelper.php(131): mdm\admin\components\MenuHelper::normalizeMenu('<span class="st...', '<span class="st...', Array, NULL)
+#4 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/views/layouts/left.php(32): mdm\admin\components\MenuHelper::getAssignedMenu(1, NULL, Array, true)
+#5 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(336): require('/home/vagrant/C...')
+#6 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/vagrant/C...', Array)
+#7 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/vagrant/C...', Array, NULL)
+#8 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/views/layouts/main.php(50): yii\base\View->render('left.php', Array)
+#9 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(336): require('/home/vagrant/C...')
+#10 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/vagrant/C...', Array)
+#11 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/home/vagrant/C...', Array, Object(backend\controllers\SiteController))
+#12 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#13 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/controllers/SiteController.php(63): yii\base\Controller->render('index')
+#14 [internal function]: backend\controllers\SiteController->actionIndex()
+#15 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#18 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#19 /home/vagrant/Code/xiaohtstyle/yii2-advanced/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php(17): yii\base\Application->run()
+#21 {main}
+2018-03-26 10:44:14 [192.168.10.1][1][nm67ijherttis6idbg99vqqtih][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4\",2592000]\";}'
+    '_csrf-backend' => '477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46\";}'
+    'advanced-backend' => 'nm67ijherttis6idbg99vqqtih'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => '_identity-backend=227299fb711b81cbbca8a8ee600c1b125edc7c94caebfa38f09be99125cbf6a6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gtgPwtKG60qAw93i7a7HVu_4CD4LFf_4%22%2C2592000%5D%22%3B%7D; _csrf-backend=477719982066865131733c1f492c4d3b876f543ac7f9e71825d586473b4a039ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Zn70WDgWUQ-O5s_PIpMAJslFbU6x9_46%22%3B%7D; advanced-backend=nm67ijherttis6idbg99vqqtih'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yii2-advanced.com/site/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii2-advanced.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii2-advanced.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '2736'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-advanced/backend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522061054.0764
+    'REQUEST_TIME' => 1522061054
+]

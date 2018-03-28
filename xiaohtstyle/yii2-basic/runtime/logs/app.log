@@ -1,0 +1,401 @@
+2018-03-26 05:38:43 [192.168.10.1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/Request.php:1554
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/Request.php(1536): yii\web\Request->loadCookies()
+#1 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2-debug/panels/UserPanel.php(81): yii\base\Component->__get('isGuest')
+#8 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#11 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2-debug/Module.php(177): yii\BaseYii::createObject(Array)
+#14 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2-debug/Module.php(149): yii\debug\Module->initPanels()
+#15 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#19 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php(12): yii\base\Application->__construct(Array)
+#28 {main}
+2018-03-26 05:38:42 [192.168.10.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.yii2-basic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.yii2-basic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '7702'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522042721.7632
+    'REQUEST_TIME' => 1522042721
+]
+2018-03-26 05:41:26 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/views/layouts/main.php:78
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/controllers/SiteController.php:64
+2018-03-26 05:41:26 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+2018-03-26 05:41:23 [192.168.10.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.yii2-basic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.yii2-basic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '7947'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522042883.958
+    'REQUEST_TIME' => 1522042883
+]
+2018-03-26 05:41:28 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/views/layouts/main.php:78
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/controllers/SiteController.php:126
+2018-03-26 05:41:28 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+2018-03-26 05:41:28 [192.168.10.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '0lgkasuvv0rji094fps0hb2d0c'
+    '_csrf' => '2dad24afa6b4d6d31cc70c119f03aacc8a462045e9640f063586b29d02d70250a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BAmjaeqppKcPIFR0xoAwgg24DdSYpbfu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'PHPSESSID=0lgkasuvv0rji094fps0hb2d0c; _csrf=2dad24afa6b4d6d31cc70c119f03aacc8a462045e9640f063586b29d02d70250a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BAmjaeqppKcPIFR0xoAwgg24DdSYpbfu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii2-basic.com/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.yii2-basic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.yii2-basic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '7953'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522042888.1286
+    'REQUEST_TIME' => 1522042888
+]
+2018-03-26 05:41:29 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/views/layouts/main.php:78
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/controllers/SiteController.php:115
+2018-03-26 05:41:29 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+2018-03-26 05:41:28 [192.168.10.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '0lgkasuvv0rji094fps0hb2d0c'
+    '_csrf' => '2dad24afa6b4d6d31cc70c119f03aacc8a462045e9640f063586b29d02d70250a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BAmjaeqppKcPIFR0xoAwgg24DdSYpbfu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'wedaqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'PHPSESSID=0lgkasuvv0rji094fps0hb2d0c; _csrf=2dad24afa6b4d6d31cc70c119f03aacc8a462045e9640f063586b29d02d70250a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BAmjaeqppKcPIFR0xoAwgg24DdSYpbfu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii2-basic.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.yii2-basic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.yii2-basic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '7948'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522042888.9592
+    'REQUEST_TIME' => 1522042888
+]
+2018-03-26 05:41:29 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+2018-03-26 05:41:29 [192.168.10.1][-][-][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '5ab88809990df3.17738119'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '0lgkasuvv0rji094fps0hb2d0c'
+    '_csrf' => '2dad24afa6b4d6d31cc70c119f03aacc8a462045e9640f063586b29d02d70250a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BAmjaeqppKcPIFR0xoAwgg24DdSYpbfu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'wedaqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'PHPSESSID=0lgkasuvv0rji094fps0hb2d0c; _csrf=2dad24afa6b4d6d31cc70c119f03aacc8a462045e9640f063586b29d02d70250a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BAmjaeqppKcPIFR0xoAwgg24DdSYpbfu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii2-basic.com/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.yii2-basic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.yii2-basic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '7947'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fcaptcha&v=5ab88809990df3.17738119'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=5ab88809990df3.17738119'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522042889.7609
+    'REQUEST_TIME' => 1522042889
+]
+2018-03-26 05:50:34 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/views/layouts/main.php:78
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/controllers/SiteController.php:64
+2018-03-26 05:50:34 [192.168.10.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+2018-03-26 05:50:34 [192.168.10.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.yii2-basic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.yii2-basic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '8824'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522043434.2841
+    'REQUEST_TIME' => 1522043434
+]
+2018-03-26 05:50:57 [192.168.10.1][-][l5462lij0dhlcrm5kasd4h8ahj][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.10.1
+2018-03-26 05:50:57 [192.168.10.1][-][l5462lij0dhlcrm5kasd4h8ahj][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to access this page. in /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2-gii/Module.php:113
+Stack trace:
+#0 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Controller.php(145): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii/default/ind...', Array)
+#3 /home/vagrant/Code/xiaohtstyle/yii2-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php(12): yii\base\Application->run()
+#5 {main}
+2018-03-26 05:50:57 [192.168.10.1][-][l5462lij0dhlcrm5kasd4h8ahj][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+    in /home/vagrant/Code/xiaohtstyle/yii2-basic/views/layouts/main.php:78
+2018-03-26 05:50:57 [192.168.10.1][-][l5462lij0dhlcrm5kasd4h8ahj][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.10.1
+2018-03-26 05:50:56 [192.168.10.1][-][l5462lij0dhlcrm5kasd4h8ahj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l5462lij0dhlcrm5kasd4h8ahj'
+    '_csrf' => 'b26ead2e7252fefe571f5226d6b4f5a6b86a94a1fa23c74359693b76013c54aca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LUg-qe85hOBNR5hdgdMtU7gPbysmOjE-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vagrant'
+    'HOME' => '/home/vagrant'
+    'HTTP_COOKIE' => 'PHPSESSID=l5462lij0dhlcrm5kasd4h8ahj; _csrf=b26ead2e7252fefe571f5226d6b4f5a6b86a94a1fa23c74359693b76013c54aca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LUg-qe85hOBNR5hdgdMtU7gPbysmOjE-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.yii2-basic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.yii2-basic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.10.10'
+    'REMOTE_PORT' => '8830'
+    'REMOTE_ADDR' => '192.168.10.1'
+    'SERVER_SOFTWARE' => 'nginx/1.13.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/vagrant/Code/xiaohtstyle/yii2-basic/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1522043456.9025
+    'REQUEST_TIME' => 1522043456
+]
