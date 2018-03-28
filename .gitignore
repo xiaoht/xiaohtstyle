@@ -3,7 +3,7 @@
 _ide_helper.php
 _ide_helper_models.php
 .phpstorm.meta.php
-xiaohtstyle/storage/framework/
+!xiaohtstyle/storage/framework/
 xiaohtstyle/public/storage
 xiaohtstyle/public/build/
 yii2-basic/runtime/cache/*
